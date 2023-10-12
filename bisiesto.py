@@ -1,15 +1,16 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Diseña un programa para determinar si un año es o no bisiesto.
+ 750722
 """
 
-# Declaraciones
-CONSTANTE = valor
+#Entardas
+anio = int(input("Ingrese el año que deseé: "))
 
-# Entradas
-entrada = input()
+#Procesos
+if anio % 4 == 0:
+    print(f"{anio} sí es un año bisiesto" )
+elif anio % 100 == 0:
+    print("El año es secular")
+else:
+    print(f"{anio} no es un año bisiesto")
 
-# Proceso
-
-
-# Salidas
-print(salida)
